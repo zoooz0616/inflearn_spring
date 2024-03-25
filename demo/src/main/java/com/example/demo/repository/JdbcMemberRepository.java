@@ -11,6 +11,8 @@ import java.util.Optional;
 
 import javax.sql.DataSource;
 
+import org.springframework.jdbc.datasource.DataSourceUtils;
+
 import com.example.demo.domain.Member;
 
 public class JdbcMemberRepository implements MemberRepository {
