@@ -36,6 +36,12 @@ public class SpringConfig {
 		return new MemberService(memberRepository);
 	}
 
+	// @Component쓰거나 이렇게 빈 생성하기
+//	@Bean
+//	public TimeTraceAop timeTraceAop() {
+//		return new TimeTraceAop();
+//	}
+
 //	@Bean
 //	public MemberRepository memberRepository() {
 //		return new MemoryMemberRepository();
